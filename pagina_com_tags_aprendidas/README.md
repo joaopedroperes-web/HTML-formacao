@@ -1,6 +1,6 @@
 # Formação HTML Web Developer
 
-Repositório criado para armazenar os desafios realizados durante a formação de HTML, realizados na plataforma dio.
+Neste desafio, foi realizado um resumo de algumas das tags em HTML apreendidas durante o primeiro módulo do curso Formação HTML Web Developer.
 
 ### Link dio:
 [Dio](https://web.dio.me/home)

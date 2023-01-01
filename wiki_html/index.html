@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>   
+        <figure class="logo">
+            <img src="assets/images/wikipedia.png" width="80" alt="Logo da Wikipédia"/>
+        </figure>
+    </header>
+
+    <section class="bar"></section>
+
+    <section class="content">
+        <nav class="sidebar">
+            <h2>Linguagens de programação</h2>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)">Java</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)">C</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Python">Python</a></li>
+            </ul>
+        </nav>
+
+        <article class="main">
+            <h1 id="seção1">HTML</h1>
+            <hr>
+            <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+            <p>HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.</p>
+            <p>SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.</p>
+            <br>
+
+            <h3 id="seção2">História</h3>
+            <hr>
+            <p>Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.</p>
+            <p>As primeiras versões do HTML foram definidas com regras sintáticas flexíveis, o que ajudou aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de ferramentas para autoria de HTML aumentou, assim como a tendência em tornar a sintaxe cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código HTML válido.</p>
+            <p>A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World Wide Web Consortium (W3C). Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 pelo W3C. Uma errata ainda foi lançada em 2001.</p>
+            <p>Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação HTML baseada em XML que é considerada pela W3C como um sucessor do HTML. O XHTML faz uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado e estendido.</p>
+            <p>Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.</p>
+            <br>
+
+            <h3 id="seção3">Edição de documentos HTML</h3>
+            <hr>
+            <p>Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos comum, como o Bloco de Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a produção de documentos, no mercado existem editores HTML específicos, com recursos sofisticados, que facilitam a realização de tarefas repetitivas, inserção de objetos, elaboração de tabelas e outros recursos (Ver lista abaixo). Basicamente dividem-se em dois tipos:</p>
+            <ul>
+                <li>Editores de texto fonte: inserem automaticamente os marcadores, orientando a inserção de atributos e marcações.</li>
+                <li>Editores WYSIWYG: oferecem ambiente de edição com um "esboço" resultado final das marcações.</li>
+            </ul>
+            <br>
+
+            <h3 id="seção4">Marcas(tags)</h3>
+            <hr>
+            <p>Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares (chevron) (< e >); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Exemplo de um elemento simples (não possui filhos)</p>
+            <p>
+                <ul>
+                    <li>< a > é o marcador de abertura</li>
+                    <li>< /a > é o marcador de fechamento</li>
+                    <li>href é o atributo onde é definido a url, que será acessada ao clicar no link.</li>
+                </ul>
+            </p>
+            <p>Isso é necessário porque os marcadores servem para definir a formatação de uma porção do documento, e assim marcamos onde começa e termina o conteúdo que receberá a formatação ou marcação necessária, específica. Alguns elementos são chamados “vazios”, pois não marcam uma região de texto, apenas inserem algum elemento no documento.</p>
+            <p>Cada elemento tem os seus atributos possíveis e os seus valores. Um exemplo, é o atributo <mark>href</mark> que pode ser usado com o elemento <mark>a</mark>, com o <mark>link</mark> mas que não pode ser usado com o elemento <mark>meta</mark>. Isso quer dizer que devemos saber exatamente quais os atributos e valores possíveis para cada elemento.</p>
+            <p>De uma maneira geral o HTML é um poderoso recurso, sendo uma linguagem de marcação muito simples e acessível voltada para a produção e compartilhamento de documentos, imagens, vídeos e áudio via streaming.</p>
+            <p>Na sua versão mais recente, o HTML5, é possível criar marcadores personalizados com JavaScript, linguagem de programação diretamente compatível com o HTML. Cada tag pode ter uma função específica utilizando uma API (Interface de programação de aplicações) diferente, assim como seus nomes e estilos.</p>
+            <br>
+
+            <h3 id="seção5">Cores</h3>
+            <hr>
+            <p>As cores devem ser declaradas em CSS, com o atributo style, que funciona em diversos elementos.</p>
+            <br>
+            
+            <h3 id="seção6">Referências</h3>
+            <hr>
+            <a href="https://pt.wikipedia.org/wiki/HTML#Refer%C3%AAncias"><p>Site Oficial da Wikipédia</p></a>
+
+        </article>
+
+        <aside class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#seção1">HTML</a></li>
+                <li><a href="#seção2">História</a></li>
+                <li><a href="#seção3">Edição de documentos</a></li>
+                <li><a href="#seção4">Marcas</a></li>
+                <li><a href="#seção5">Cores</a></li>
+                <li><a href="#seção6">Referências</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
